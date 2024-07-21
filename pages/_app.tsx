@@ -4,14 +4,10 @@ import type { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }:AppProps) {
   return (
-    <UserProvider>
-      <ApolloProvider client={apolloClient}>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </ApolloProvider>
-    </UserProvider>
-  )
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 }
 
-export default MyApp
+export default MyApp;

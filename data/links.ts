@@ -29,7 +29,7 @@ export const links : Prisma.LinkCreateManyInput[] = [
     category: "Open Source",
     description: "GraphQL implementation ",
     id: '4',
-    imageUrl: "https://www.apollographql.com/apollo-home.jpg",
+    imageUrl: "https://www.apollographql.com/apollo-home.png",
     title: "Apollo GraphQL",
     url: "https://apollographql.com",
   },
